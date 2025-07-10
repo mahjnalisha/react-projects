@@ -1,0 +1,47 @@
+.acc-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-wrap;
+  gap: 20px;
+}
+
+.width-500{
+    margin:0px auto;
+    width:500px;
+}
+button {
+    padding: 10px 20px;
+    background: #ff0000;
+    border:0px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px;
+}
+.accordian {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item {
+  background: rgb(179, 127, 30);
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+
+.title {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.content {
+  color: #ffffff;
+  height: auto;
+}
